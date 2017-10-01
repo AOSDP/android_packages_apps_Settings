@@ -21,10 +21,16 @@
     android:title="@string/wifi_configure_settings_preference_title">
 
     <SwitchPreference
-        android:key="enable_wifi_wakeup"
-        android:title="@string/wifi_wakeup"
-        android:icon="@drawable/ic_auto_wifi"
-        android:summary="@string/wifi_wakeup_summary" />
+            android:key="randomize_mac"
+            android:title="@string/randomize_mac_title"
+            android:summary="@string/randomize_mac_summary"
+            android:persistent="false" />
+
+    <SwitchPreference
+            android:key="enable_wifi_wakeup"
+            android:title="@string/wifi_wakeup"
+            android:icon="@drawable/ic_auto_wifi"
+            android:summary="@string/wifi_wakeup_summary" />
 
     <SwitchPreference
         android:key="use_open_wifi_automatically"
