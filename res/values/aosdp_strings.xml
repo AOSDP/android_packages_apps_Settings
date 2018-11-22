@@ -21,4 +21,7 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+   <!-- Buttons -->
+   <string name="hardware_keys">Hardware buttons</string>
 </resources>

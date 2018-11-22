@@ -71,4 +71,9 @@
                 android:targetClass="@string/additional_system_update_menu" />
     </Preference>
 
+    <PreferenceScreen
+        android:key="hardware_keys"
+        android:title="@string/hardware_keys"
+        android:icon="@drawable/ic_settings_buttons"
+        android:fragment="com.android.settings.aosdp.ButtonsSettings" />
 </PreferenceScreen>
