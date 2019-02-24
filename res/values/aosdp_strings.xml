@@ -22,8 +22,6 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
-   <!-- Buttons -->
-   <string name="hardware_keys">Hardware buttons</string>
 
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -52,4 +50,5 @@
     <!-- Scramble PIN layout on lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
 </resources>
